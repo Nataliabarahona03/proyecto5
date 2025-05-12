@@ -1,10 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-
-import { HashRouter as Router, Route, Routes, UNSAFE_RemixErrorBoundary } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import Home from './pages/Home';
 import Players from './pages/Players';
 import ErrorPage from './pages/ErrorPage';
